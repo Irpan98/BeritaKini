@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.detail.DetailActivity">
+
+    <ImageView
+        android:id="@+id/ivNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loading_image" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:text="Berita sekarang adalah" />
+
+    <TextView
+        android:id="@+id/tvSourceName"
+        style="@style/padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        tools:text="Berita sekarang adalah" />
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        style="@style/padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        tools:text="Berita sekarang adalah" />
+
+    <Button
+        android:id="@+id/btnKeBerita"
+        style="@style/padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_button"
+        android:text="@string/ke_berita"
+        android:textColor="@android:color/white" />
+</LinearLayout>
